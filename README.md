@@ -10,14 +10,15 @@ In order to work plugin must be called on **real click or keyboard event**.
 
 ### Simple example
 
+Check [live editable example of jquery.fullscreen](http://jsbin.com/tizikefefa/2/) or `demo` directory.
+
 ```javascript
  $('a').click(function() {
    $('div').fullscreen().request();
  }
 ```
 
-Code above will open given element in Fullscreen mode. Simple, right?
-Check `demo` directory to see some working implementation.
+Code above will open given element in Fullscreen mode after clicking on a link. Simple, right?
 
 ### Available methods
 
@@ -61,6 +62,7 @@ Fork, make your feature/bugfix branch and create pull request.
 * Make plugin UMD compatible
 * Prepare bower package
 * Prepare minimized, distribution ready version using gulp workflow
+* Investigate and describe usage with iframes 
 
 
 
