@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jquery.fullscreen demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="fullscreen-container">
+    <h1>Fullscreen is <span class="state inactive">inactive</span></h1>
+        <div class="btn toggle">
+            Click me to toggle fullscreen!
+        </div>
+    </div>
+    <p>Code used in this example:
+<code><pre>
+$('.toggle').click(function() {
+    $('.fullscreen-container').fullscreen().toggle();
+};
+
+$(document).on('fullScreenChange', function(e, data) {
+    var state = data.isActive ? 'active' : 'inactive';
+    $('.state').removeClass('active inactive').addClass(state).text(state);
+});
+</pre></code>
+    </p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.1.2.min.js"></script>
+<script src="../jquery.fullscreen.js"></script>
+<script>
+    $('.toggle').click(function() {
+        $('.fullscreen-container').fullscreen().toggle();
+    });
+
+    $(document).on('fullScreenChange', function(e, data) {
+        var state = data.isActive ? 'active' : 'inactive';
+        $('.state').removeClass('active inactive').addClass(state).text(state);
+    });
+</script>
+</body>
+</html>

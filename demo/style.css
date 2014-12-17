@@ -1,0 +1,68 @@
+html {
+    background: #fff;
+    color: #333;
+    font: 16px Ubuntu, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    padding: 0 1em;
+    text-align: justify;
+}
+
+code, pre {
+    font-family: 'Source Code Pro', 'DejaVu Sans Mono', Menlo, monospace;
+}
+
+code {
+    background: #f8f8f8;
+    border: 1px solid #efefef;
+    padding: 1px 4px;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 1em 0 0.5em;
+    font-size: 2.8em;
+}
+
+pre { overflow-x: auto; }
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.fullscreen-container {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    width: 300px;
+    text-align: center;
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.state {
+    font-weight: bold;
+}
+
+.inactive {
+    color: #3498db;
+}
+
+.active {
+    color: #3cb0fd;
+}
