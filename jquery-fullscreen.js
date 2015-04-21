@@ -1,11 +1,11 @@
 /*
- * Copyright 2014 Krzysztof Kucharski
+ * Copyright 2014-15 Krzysztof Kucharski
  */
 
 (function ($) {
     'use strict';
     /*
-     * Element which is fullscren called on
+     * Element which is fullscreen called on
      */
     var element = document.documentElement;
     /*

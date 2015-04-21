@@ -1,0 +1,26 @@
+{
+  "name": "jquery-fullscreen",
+  "version": "1.0.0",
+  "description": "jQuery fullscreen plugin for all browsers",
+  "main": "jquery.fullscreen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blid/jquery-fullscreen.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Krzysztof Kucharski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blid/jquery.fullscreen/issues"
+  },
+  "homepage": "https://github.com/blid/jquery-fullscreen#readme",
+  "dependencies": {
+    "jquery": "2.1.3"
+  }
+}

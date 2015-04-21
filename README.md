@@ -10,7 +10,7 @@ In order to work plugin must be called on **real click or keyboard event**.
 
 ### Simple example
 
-Check [live editable example of jquery.fullscreen](http://jsbin.com/tizikefefa/2/) or `demo` directory.
+Check [live editable example of jquery-fullscreen](http://jsbin.com/tizikefefa/2/) or `demo` directory.
 
 ```javascript
  $('a').click(function() {
